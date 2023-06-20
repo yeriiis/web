@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZIIP밥</title>
+
+    <!--구글폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Nanum+Pen+Script&display=swap" rel="stylesheet">   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <!--Main-->
+    <header class = "vh-100 text-white d-flex flex-column justify-content-center align-items-center" id="main">
+        <nav class="nav d-flex flex-column">
+            <p><a class="nav-link active" aria-current="page" href="#portfolio">Menu</a></p>
+            <p><a class="nav-link" href="#portfoliobest">Best Menu</a></p> 
+            <p><a class="nav-link" href="#portfolionew">New Menu</a></p>
+            <p><a class="nav-link" href="#about-chef">About</a></p>
+            <p><a class="nav-link" href="#contact">Contact</a></p>
+          </nav>
+        <h1 class = "display-3 fw-bold mb-5">ZIIP밥</h1>
+        <h4 class = "fs-2 mb-3">한국인은 밥심</h4>
+    </header>
+
+    <!-- 캐러셀 -->
+    <section class ="container py-5" id="portfolio">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <a href="egg.html">
+              <img src="images/egg.jpg" class="d-block w-100" alt="계란말이">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>계란말이</h5>
+                <p>사진을 눌러 레시피를 확인해보세요.</p>
+              </div>
+            </a>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="chickenstew.html">
+              <img src="images/chickenstew.jpg" class="d-block w-100" alt="닭볶음탕">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>닭볶음탕</h5>
+                <p>사진을 눌러 레시피를 확인해보세요.</p>
+              </div>
+            </a>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="melchi.html">
+              <img src="images/melchi.png" class="d-block w-100" alt="멸치볶음">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>멸치볶음</h5>
+                <p>사진을 눌러 레시피를 확인해보세요.</p>
+              </div>
+            </a>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="kimchi.html">
+              <img src="images/kimchi.jpg" class="d-block w-100" alt="김치찌개">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>김치찌개</h5>
+                <p>사진을 눌러 레시피를 확인해보세요.</p>
+              </div>
+            </a>
+            </div>
+    
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+      <!--best menu-->
+    <section class = "bg-dark py-5" id="portfoliobest">
+        <div class="container overflow-hidden">
+            <div class="text-center text-white py-5">
+                <h2 class="fw-bold mb-3">ZIIP밥 BEST</h2>
+            <p>사진을 눌러 자세한 레시피를 확인해보세요!</p>            
+        </div>
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <a href="kimchi.html"><img src="images/kimchi.jpg"class="img-fluid img-thumbnail"></a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="egg.html"><img src="images/egg.jpg"class="img-fluid img-thumbnail"></a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="melchi.html"><img src="images/melchi.png"class="img-fluid img-thumbnail"></a>
+                </div>
+            </div> 
+        </div>
+        <a id="topButton" href="#main" class="btn btn-primary btn-lg">Top</a>
+    </section>
+
+      <!--new menu-->
+    <section class = "bg-dark py-5" id="portfolionew">
+        <div class="container overflow-hidden">
+            <div class="text-center text-white py-5">
+                <h2 class="fw-bold mb-3">ZIIP밥 NEW</h2>
+                <p>새로 업로드 된 메뉴입니다. 자세한 레시피를 확인해보세요!</p>
+            </div>
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <a href="fishbok.html"><img src="images/fishbok.jpg"class="img-fluid img-thumbnail"></a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="jinmi.html"><img src="images/jinmi.jpg"class="img-fluid img-thumbnail"></a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="chickenstew.html"><img src="images/chickenstew.jpg"class="img-fluid img-thumbnail"></a>
+                </div>
+            </div> 
+        </div>
+        <a id="topButton" href="#main" class="btn btn-primary btn-lg">Top</a>
+    </section>
+
+    <!--About-->
+    <section class="container py-5"id="about-chef">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">About ZIIP</h2>
+            <p class="lead text-muted">한국인은 밥심</p>
+        </div>
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-5">
+                <img class="img-fluid"src="images/mainback.jfif"alt="쉐프 프로필 사진">
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h3 class="fw-bold mb-3">ZIIP밥</h3>
+                <p class="lh-lg">ZIIP밥은 모두를 위한 한식 레시피 사이트입니다. 간단한 레시피를 참고하여 나에게 최고의 한 끼를 선사하세요.</p>
+            </div>
+        </div>
+        <a id="topButton" href="#main" class="btn btn-primary btn-lg">Top</a>
+    </section>
+
+    
+    <!-- 연락처 섹션 만들기 -->
+    <section class="container overflow-hidden py-5 text-center" id="contact">
+        <div class="py-3">
+            <h2 class="fw-bold">Contact</h2> 
+        </div> 
+        <div class="row py-5 gy-3">
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-dark">
+                    <i class="bi bi-telephone-fill fs-5 text-warning"></i>
+                    <div class="fw-bold fs-5 py-2">Tel</div>
+                    <hr>
+                    <p class="text-muted">010-4983-6766</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-dark">
+                    <i class="bi bi-envelope-heart fs-5 text-warning"></i>
+                    <div class="fw-bold fs-5 py-2">E-mail</div>
+                    <hr>
+                    <p class="text-muted">keenyeri@swu.ac.kr</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-dark">
+                    <i class="bi bi-car-front-fill fs-5 text-warning"></i>
+                    <div class="fw-bold fs-5 py-2">Address</div>
+                    <hr>
+                    <p class="text-muted">서울특별시 노원구 공릉동 화랑로 621</p>
+                </div>
+            </div>
+        </div>
+        <a id="topButton" href="#main" class="btn btn-primary btn-lg">Top</a>
+    </section>
+
+    <a id="topButton" href="#main" class="btn btn-primary btn-lg">Top</a>
+  
+</body>
+
+</html>

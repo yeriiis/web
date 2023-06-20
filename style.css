@@ -1,0 +1,112 @@
+header{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)),url(images/mainback.jfif);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.carousel-item img {
+  max-height: 700px; /* 원하는 최대 높이로 설정 */
+  object-fit: contain; /* 이미지 비율 유지하며 채우도록 설정 */
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.lead {
+    font-size: 14px; 
+}
+
+h6 {
+    margin-bottom: 10px; /* 아래 여백 설정 */
+  }
+  
+p {
+    margin-bottom: 5px; /* 아래 여백 설정 */
+  }
+
+.p1 {
+  text-align: center;
+  }
+
+.p2 {
+  text-align: center;
+  }
+
+.p3 {
+  text-align: center;
+  }
+
+.p4 {
+  text-align: center;
+  }
+
+.p5 {
+  text-align: center;
+  }
+
+.p6 {
+  text-align: center;
+  }
+
+h2 a{
+  color: white;
+}
+
+.htitle {
+text-align: center;
+}
+
+
+  nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: fit-content; 
+    height: fit-content; 
+    font-size: 24px;
+    font-weight: bold;
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  .nav-link {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+  }
+
+#topButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  color: black;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#backmain{
+  color: black;
+  text-align: center;
+}
+
+b{
+  font-size: 18px;
+}
